@@ -1,0 +1,52 @@
+#wrap {
+  width: 100%;
+// quick_menu.scss
+  #quickMenu {
+  position: absolute;
+  z-index: 4;
+  top: 700px;
+  width: 80px;
+  right: 20px;
+
+  &.on {
+     position: fixed;
+     top: 50%;
+     margin-top: -95px;
+  }
+
+  ul {
+     width: 100%;
+
+     li {
+        width: 100%;
+
+        a {
+           display: block;
+           width: 100%;
+        }
+
+        &:nth-child(1) {
+           img {
+              width: 100%;
+           }
+
+           padding-bottom: 10px;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+        background: #fff;
+           font-size: 12px;
+           padding: 7px 0px;
+           border: 1px solid #ddd;
+           border-bottom: none;
+           text-align: center;
+        }
+
+        &:last-child {
+           border-bottom: 1px solid #ddd;
+        }
+     }
+  }
+  }
+}

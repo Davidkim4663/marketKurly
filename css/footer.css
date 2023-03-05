@@ -1,0 +1,167 @@
+#wrap {
+  width: 100%;
+}
+#wrap #footer {
+  width: 100%;
+  border-top: 1px solid #eee;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #footer .row {
+  width: 100%;
+}
+#wrap #footer .row.row1 {
+  background-color: #fff;
+}
+#wrap #footer .row.row1 .container {
+  width: 100%;
+  padding-top: 30px;
+}
+#wrap #footer .row.row1 .container .row1-1 {
+  width: 100%;
+  display: flex;
+  margin: 30px 0px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left {
+  width: 50%;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(1) h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(2) h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #333;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(2) h2 a {
+  color: #333;
+  letter-spacing: 1.2px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(2) h2 span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(3) {
+  padding: 20px 0px 10px 0px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(3) ul li {
+  font-size: 14px;
+  display: flex;
+  padding: 7px 0px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(3) ul li a {
+  color: #333;
+  display: block;
+  width: 140px;
+  height: 40px;
+  margin: 0px 16px 0px 0px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(3) ul li div {
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(3) ul li div p {
+  color: #999;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(4) {
+  color: #999;
+  font-size: 12px;
+}
+#wrap #footer .row.row1 .container .row1-1 .left > ul > li:nth-child(4) a {
+  color: #999;
+}
+#wrap #footer .row.row1 .container .row1-1 .right {
+  width: 50%;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul {
+  width: 100%;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li {
+  width: 100%;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(1) a {
+  font-weight: 600;
+  margin-right: 8px;
+  font-size: 14px;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(2) {
+  padding: 30px 0px 40px 0px;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(2) address {
+  font-size: 12px;
+  color: #999;
+  line-height: 150%;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(2) address a {
+  color: #5f0080;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(2) address i {
+  margin: 0px 2px;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(3) {
+  display: flex;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(3) a {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap #footer .row.row1 .container .row1-1 .right ul li:nth-child(3) a img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #footer .row.row1 .container .row1-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  padding: 30px 0px 40px 0px;
+}
+#wrap #footer .row.row1 .container .row1-2 a {
+  display: flex;
+}
+#wrap #footer .row.row1 .container .row1-2 a img {
+  height: 34px;
+}
+#wrap #footer .row.row1 .container .row1-2 a:nth-child(3) img {
+  height: 32px;
+}
+#wrap #footer .row.row1 .container .row1-2 a span {
+  font-size: 10px;
+  color: #999;
+  margin-left: 15px;
+  line-height: 140%;
+}
+#wrap #footer .row.row2 {
+  width: 100%;
+  padding: 30px 0px 40px 0px;
+  background-color: #eee;
+}
+#wrap #footer .row.row2 .container {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: #999;
+  margin-top: -30px;
+}
+#wrap #footer .row.row2 .container div {
+  line-height: 140%;
+}
+#wrap #footer .row.row2 .container p {
+  padding: 15px 0 0 0;
+}
+#wrap #footer .row .container {
+  width: 100%;
+  max-width: 1068px;
+  height: 100%;
+  margin: 0 auto;
+}

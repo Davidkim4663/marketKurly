@@ -1,0 +1,433 @@
+@import url("../../../../css/reset.css");
+@import url("../../../../css/fonts.css");
+@import url(../../../../css/top_modal.css);
+@import url(../../../../css/header.css);
+@import url(../../../../css/footer.css);
+#wrap {
+  width: 100%;
+}
+#wrap #mainSignUp {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 50px 0px 100px 0px;
+}
+#wrap #mainSignUp .container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#wrap #mainSignUp .container .title {
+  position: relative;
+  padding: 0px 0px 80px 0px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #222;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #mainSignUp .container .title h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 500;
+}
+#wrap #mainSignUp .container .title span {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  font-size: 12px;
+}
+#wrap #mainSignUp .container .title span i {
+  color: #ee6a7b;
+  margin-right: 4px;
+}
+#wrap #mainSignUp .container .content {
+  width: 100%;
+}
+#wrap #mainSignUp .container .content form ul {
+  width: 100%;
+}
+#wrap #mainSignUp .container .content form ul > li {
+  width: 100%;
+  padding: 10px 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #mainSignUp .container .content form ul > li > div {
+  width: 100%;
+  height: 45px;
+  padding: 0px 133.5px;
+  position: relative;
+  display: flex;
+}
+#wrap #mainSignUp .container .content form ul > li > div em {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#wrap #mainSignUp .container .content form ul > li > div em i {
+  color: #ee6a7b;
+}
+#wrap #mainSignUp .container .content form ul > li > div input[type=text] {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  background: #fff;
+  padding: 0px 14px;
+  font-size: 15px;
+  outline: none;
+}
+#wrap #mainSignUp .container .content form ul > li > div input[type=text]::-moz-placeholder {
+  color: #aaa;
+}
+#wrap #mainSignUp .container .content form ul > li > div input[type=text]::placeholder {
+  color: #aaa;
+}
+#wrap #mainSignUp .container .content form ul > li > div button {
+  width: 123.5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: 1px solid #5f0080;
+  background: #fff;
+  color: #5f0080;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  cursor: pointer;
+}
+#wrap #mainSignUp .container .content form ul > li > div button.hp-num-btn, #wrap #mainSignUp .container .content form ul > li > div button.hp-ok-btn {
+  color: #ddd;
+  border-color: #ddd;
+}
+#wrap #mainSignUp .container .content form ul > li > div button.hp-num-btn.on, #wrap #mainSignUp .container .content form ul > li > div button.hp-ok-btn.on {
+  color: #5f0080;
+  border-color: #5f0080;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-num-btn {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-num-btn.off {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-num-btn2 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-num-btn2.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-count {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 153px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#wrap #mainSignUp .container .content form ul > li > div .hp-count i {
+  font-size: 14px;
+  color: #ee6a7b;
+}
+#wrap #mainSignUp .container .content form ul > li .isError {
+  padding: 7px 133.5px 0px 133.5px;
+  color: #f03f40;
+  font-size: 13px;
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li .isError.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.hp2 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.hp2.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.addr1 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.addr1.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.addr2 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.addr2.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.addr3.on {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.addr3 .addr-search-btn {
+  position: relative;
+  width: 100%;
+}
+#wrap #mainSignUp .container .content form ul > li.addr4 div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100%;
+}
+#wrap #mainSignUp .container .content form ul > li.addr4 div strong {
+  font-size: 12px;
+  color: #5f0080;
+}
+#wrap #mainSignUp .container .content form ul > li.addr4 div p {
+  font-size: 12px;
+  color: #626262;
+}
+#wrap #mainSignUp .container .content form ul > li.addr4 strong {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.addr4.on strong {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.radio div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#wrap #mainSignUp .container .content form ul > li.radio div label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+#wrap #mainSignUp .container .content form ul > li.radio div label input[type=radio] {
+  margin: 0px 10px 0px 0px;
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#wrap #mainSignUp .container .content form ul > li.radio div label input[type=radio]:checked {
+  border: 7px solid #5f0080;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#wrap #mainSignUp .container .content form ul > li.radio div p {
+  line-height: 130%;
+  font-size: 12px;
+  color: #666;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input.on {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input div {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input div #addInputBox2 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input div .add-input-p2 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input.on #addInputBox1 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input.on #addInputBox2 {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input.on .add-input-p1 {
+  display: none;
+}
+#wrap #mainSignUp .container .content form ul > li.radio.add-input.on .add-input-p2 {
+  display: block;
+}
+#wrap #mainSignUp .container .content form ul > li.birth ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #ddd;
+}
+#wrap #mainSignUp .container .content form ul > li.birth ul li {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#wrap #mainSignUp .container .content form ul > li.birth ul li:nth-child(odd) {
+  width: 32%;
+}
+#wrap #mainSignUp .container .content form ul > li.birth ul li:nth-child(even) {
+  width: 2%;
+}
+#wrap #mainSignUp .container .content form ul > li.birth ul li input[type=text] {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 0;
+}
+#wrap #mainSignUp .container .content form ul > li.row-line {
+  padding: 10px 0;
+}
+#wrap #mainSignUp .container .content form ul > li.row-line div {
+  padding: 0;
+  height: 0;
+}
+#wrap #mainSignUp .container .content form ul > li.row-line div hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #222;
+}
+#wrap #mainSignUp .container .content form ul > li.row-line.bottom-line hr {
+  background-color: #eee;
+}
+#wrap #mainSignUp .container .content form ul > li.survice em {
+  margin-top: -10px;
+}
+#wrap #mainSignUp .container .content form ul > li.survice em i {
+  color: #ee6a7b;
+  margin-left: 4px;
+}
+#wrap #mainSignUp .container .content form ul > li.survice.survice-all label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap #mainSignUp .container .content form ul > li.survice.survice-all p {
+  color: #333;
+}
+#wrap #mainSignUp .container .content form ul > li.survice.chk56 label {
+  padding: 0px 0px 0px 34px;
+}
+#wrap #mainSignUp .container .content form ul > li.survice.chk56 p {
+  padding: 0px 0px 0px 34px;
+  color: #5f0080;
+  font-size: 12px;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div {
+  display: block;
+  height: auto;
+  padding-right: 0;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div label {
+  color: #333;
+  font-weight: 500;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div label input[type=checkbox] {
+  margin: 0px 10px 0px 0px;
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/check_off.svg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div label input[type=checkbox]:checked {
+  background: url(../img/check_on.svg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div > i {
+  color: #aaa;
+  margin-left: 5px;
+}
+#wrap #mainSignUp .container .content form ul > li.survice > div p {
+  line-height: 130%;
+  font-size: 12px;
+  margin: 5px 0px 0px 34px;
+  color: #666;
+  letter-spacing: -0.5px;
+}
+#wrap #mainSignUp .container .content form ul > li.button-box {
+  padding-top: 40px;
+}
+#wrap #mainSignUp .container .content form ul > li.button-box button {
+  position: relative;
+  width: 240px;
+  height: 56px;
+  background: #5f0080;
+  color: #fff;
+  font-weight: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#wrap #formEventModal {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+#wrap #formEventModal .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #formEventModal .wrap .container {
+  width: 360px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #formEventModal .wrap .container .message-box {
+  width: 100%;
+  padding: 40px 30px;
+}
+#wrap #formEventModal .wrap .container .message-box p {
+  width: 100%;
+  line-height: 140%;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+#wrap #formEventModal .wrap .container .button-box {
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+#wrap #formEventModal .wrap .container .button-box button {
+  width: 100%;
+  height: 56px;
+  background: #fff;
+  color: #5f0080;
+  font-size: 15px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}

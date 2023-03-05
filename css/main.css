@@ -1,0 +1,309 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+#wrap #main #section1 {
+  width: 100%;
+  padding-bottom: 40px;
+}
+#wrap #main #section1 .slide-container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+#wrap #main #section1 .slide-container .slide-view {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap {
+  position: relative;
+  width: 2200%;
+  left: 0%;
+  margin-left: -100%;
+  display: flex;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide a {
+  display: block;
+  pointer-events: none;
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .arrow {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  display: none;
+  width: 52px;
+  height: 52px;
+  top: 50%;
+  margin-top: -26px;
+}
+#wrap #main #section1 .slide-container .arrow.arrow-prev-box {
+  left: 16%;
+  transform: rotate(180deg);
+}
+#wrap #main #section1 .slide-container .arrow.arrow-next-box {
+  right: 16%;
+}
+#wrap #main #section1 .slide-container .arrow a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section1 .slide-container .arrow a i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/slide_arrow.svg) no-repeat 50% 50%;
+  background-size: 52px 52px;
+}
+#wrap #main #section1 .slide-container .page-box {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  right: 28%;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+#wrap #main .section-slide-public {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #fff;
+}
+#wrap #main .section-slide-public .title {
+  text-align: center;
+  margin-bottom: 27px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #main .section-slide-public .title h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #333;
+}
+#wrap #main .section-slide-public .slide-container {
+  width: 1068px;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #main .section-slide-public .slide-container .slide-view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap {
+  position: relative;
+  width: 500%;
+  display: flex;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide {
+  width: 25%;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap {
+  margin: 0px 9px;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box {
+  width: 100%;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box a {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box a > img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box a > img:hover {
+  transform: scale(1.05);
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box a > span {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 45px;
+  height: 45px;
+  bottom: 16px;
+  right: 16px;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .img-box a > span img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding: 14px 10px 0px 0px;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box h3 {
+  font-size: 16px;
+  font-weight: 800;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box h3 em {
+  margin-right: 7px;
+  color: #fa622f;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box h4 {
+  padding-top: 1px;
+  font-size: 14px;
+  font-weight: 400;
+}
+#wrap #main .section-slide-public .slide-container .slide-view .slide-wrap .slide .gap .caption-box h4 s {
+  color: #b5b5b5;
+}
+#wrap #main .section-slide-public .slide-container .arrow-btn {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  margin-top: -65px;
+}
+#wrap #main .section-slide-public .slide-container .arrow-btn.arrow-left {
+  left: -21px;
+}
+#wrap #main .section-slide-public .slide-container .arrow-btn.arrow-next {
+  right: -21px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#wrap #main .section-slide-public .slide-container .arrow-btn img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section3 {
+  width: 100%;
+  padding: 40px 0px;
+}
+#wrap #main #section3 .container {
+  width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section3 .container a {
+  width: 100%;
+  height: 140px;
+}
+#wrap #main #section3 .container a img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section5 {
+  width: 100%;
+  padding: 40px 0px;
+}
+#wrap #main #section5 .container {
+  width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section5 .container a {
+  width: 100%;
+  height: 140px;
+}
+#wrap #main #section5 .container a img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section7 {
+  width: 100%;
+  padding: 40px 0px;
+}
+#wrap #main #section7 .container {
+  width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section7 .container a {
+  width: 100%;
+  height: 140px;
+}
+#wrap #main #section7 .container a img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section9 {
+  width: 100%;
+  padding: 40px 0px;
+}
+#wrap #main #section9 .container {
+  width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section9 .container a {
+  width: 100%;
+  height: 140px;
+}
+#wrap #main #section9 .container a img {
+  width: 100%;
+  height: 100%;
+}
+#wrap #main #section11 {
+  width: 100%;
+  padding: 40px 0px;
+}
+#wrap #main #section11 .container {
+  width: 1068px;
+  margin: 0 auto;
+}
+#wrap #main #section11 .container a {
+  width: 100%;
+  height: 140px;
+}
+#wrap #main #section11 .container a img {
+  width: 100%;
+  height: 100%;
+}
